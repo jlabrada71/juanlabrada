@@ -15,7 +15,7 @@ const getAccessToken = async () => {
     data: qs.stringify(data),
     auth: {
       username: 'AfcSqEWnTBPSLbR7FjGUD2rctfWqSAZ3Np1THUDm9K22WRq8cMX8vLRdS_d2As1aRaMWM-y-t4nJZah4',
-      password: 'ED35WN20VXBn0uGLzsx8sIb81LgKZdddY_j-QlPzHIsi-mX7vlDJnMGWQ-JHMt-fb1tl6ciRgZxorxO8'
+      password: process.env.PAYPAL_SECRET_KEY
     },
     url: 'https://api.sandbox.paypal.com/v1/oauth2/token'
   }
