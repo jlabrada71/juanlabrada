@@ -1,0 +1,48 @@
+Acknowledged processing of entry for application: app2, consumer-2:3  id: 1712974921268-1, message id: 2.
+Acknowledged processing of entry for application: app1, consumer-1:1  id: 1712974921267-0, message id: 0.
+Acknowledged processing of entry for application: app2, consumer-2:1  id: 1712974921267-0, message id: 0.
+Acknowledged processing of entry for application: app1, consumer-1:2  id: 1712974921268-0, message id: 1.
+Acknowledged processing of entry for application: app2, consumer-2:2  id: 1712974921268-0, message id: 1.
+Acknowledged processing of entry for application: app2, consumer-2:2  id: 1712974921270-0, message id: 5.
+Acknowledged processing of entry for application: app2, consumer-2:1  id: 1712974921269-1, message id: 4.
+Acknowledged processing of entry for application: app2, consumer-2:1  id: 1712974921271-0, message id: 7.
+Acknowledged processing of entry for application: app1, consumer-1:1  id: 1712974921268-1, message id: 2.
+Acknowledged processing of entry for application: app2, consumer-2:1  id: 1712974921271-1, message id: 8.
+Acknowledged processing of entry for application: app2, consumer-2:2  id: 1712974921270-1, message id: 6.
+Acknowledged processing of entry for application: app1, consumer-1:1  id: 1712974921269-1, message id: 4.
+Acknowledged processing of entry for application: app1, consumer-1:1  id: 1712974921270-0, message id: 5.
+Acknowledged processing of entry for application: app2, consumer-2:3  id: 1712974921269-0, message id: 3.
+Acknowledged processing of entry for application: app2, consumer-2:1  id: 1712974921272-0, message id: 9.
+Acknowledged processing of entry for application: app1, consumer-1:2  id: 1712974921269-0, message id: 3.
+Acknowledged processing of entry for application: app1, consumer-1:2  id: 1712974921271-0, message id: 7.
+Acknowledged processing of entry for application: app1, consumer-1:1  id: 1712974921270-1, message id: 6.
+Acknowledged processing of entry for application: app1, consumer-1:2  id: 1712974921271-1, message id: 8.
+Acknowledged processing of entry for application: app2, consumer-2:2  id: 1712974921272-1, message id: 10.
+Acknowledged processing of entry for application: app2, consumer-2:1  id: 1712974921273-0, message id: 12.
+Acknowledged processing of entry for application: app1, consumer-1:1  id: 1712974921272-0, message id: 9.
+Acknowledged processing of entry for application: app2, consumer-2:3  id: 1712974921272-2, message id: 11.
+Acknowledged processing of entry for application: app2, consumer-2:1  id: 1712974921273-2, message id: 14.
+Acknowledged processing of entry for application: app2, consumer-2:3  id: 1712974921274-0, message id: 15.
+Acknowledged processing of entry for application: app1, consumer-1:2  id: 1712974921272-1, message id: 10.
+Acknowledged processing of entry for application: app2, consumer-2:2  id: 1712974921273-1, message id: 13.
+Acknowledged processing of entry for application: app2, consumer-2:1  id: 1712974921274-1, message id: 16.
+Acknowledged processing of entry for application: app1, consumer-1:2  id: 1712974921273-0, message id: 12.
+Acknowledged processing of entry for application: app1, consumer-1:1  id: 1712974921272-2, message id: 11.
+Acknowledged processing of entry for application: app2, consumer-2:1  id: 1712974921275-0, message id: 19.
+Acknowledged processing of entry for application: app2, consumer-2:3  id: 1712974921274-2, message id: 17.
+Acknowledged processing of entry for application: app2, consumer-2:2  id: 1712974921274-3, message id: 18.
+Acknowledged processing of entry for application: app2, consumer-2:1  id: 1712974921275-1, message id: 20.
+Acknowledged processing of entry for application: app1, consumer-1:1  id: 1712974921273-2, message id: 14.
+Acknowledged processing of entry for application: app1, consumer-1:2  id: 1712974921273-1, message id: 13.
+No new stream entries.app2, consumer-2:3 application:  
+No new stream entries.app2, consumer-2:2 application:  
+No new stream entries.app2, consumer-2:1 application:  
+Acknowledged processing of entry for application: app1, consumer-1:1  id: 1712974921274-0, message id: 15.
+Acknowledged processing of entry for application: app1, consumer-1:2  id: 1712974921274-1, message id: 16.
+Acknowledged processing of entry for application: app1, consumer-1:1  id: 1712974921274-2, message id: 17.
+Acknowledged processing of entry for application: app1, consumer-1:2  id: 1712974921274-3, message id: 18.
+Acknowledged processing of entry for application: app1, consumer-1:1  id: 1712974921275-0, message id: 19.
+Acknowledged processing of entry for application: app1, consumer-1:2  id: 1712974921275-1, message id: 20.
+No new stream entries.app1, consumer-1:1 application:  
+No new stream entries.app1, consumer-1:2 application:  
+All consumers have finished

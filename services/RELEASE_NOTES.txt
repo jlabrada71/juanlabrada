@@ -1,0 +1,8 @@
+=============
+0.0.1-21bf982 => Deploying services
+---------
+21bf982 Adding new events 1b69e30 Adding mosquitto support 41fafc4 Ignoring versions changes 28da681 Deploying to the nuc added
+=============
+0.0.1-a5c3422 => Deploying services
+---------
+a5c3422 Adding support to the new deploy

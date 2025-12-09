@@ -1,0 +1,40 @@
+@startuml
+scale 600 width
+
+[*] --> Pending
+Pending --> Processed : Booking is processed
+Pending --> Cancelled : Cancelled by staff or user
+Processed --> Cancelled : Cancelled by staff or user
+@enduml
+
+
+          ,------.  
+          |*start|  
+          |------|  
+          |------|  
+          `------'  
+              |     
+             \|/     
+          ,-------. 
+          |Pending| 
+   , -----|-------|-----. 
+   |      |-------|     |
+   |      `-------'     |
+  \|/                  \|/
+,---------.         ,---------.                       
+|Processed|         |Cancelled|                       
+|---------|-------->|---------|    
+|---------|         |---------|   
+`---------'         `---------' 
+                
+
+- Create abstract base class 
+- Implement each State inheriting from abstract base class 
+- Let Booking class have a private method that takes the state base class as parameter
+
+                
+     
+     
+     
+    
+     

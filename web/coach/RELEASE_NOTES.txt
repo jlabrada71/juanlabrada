@@ -1,0 +1,20 @@
+=============
+0.1.0-2bc8832 => MVP
+---------
+
+=============
+0.1.0-e1aaa58 => MVP0.2
+---------
+e1aaa58 Adding cors support
+=============
+0.1.0-c6afaf3 => Improved prompts
+---------
+c6afaf3 Improving the prompt a little bit
+=============
+0.1.0-db7505c => Upgrade nuxt version
+---------
+db7505c feature: upgrade nuxt version
+=============
+0.1.0-46e51c7 => Fix deployed module name
+---------
+46e51c7 bugfix: fix deployed module name

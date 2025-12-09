@@ -1,0 +1,20 @@
+So you can do:
+
+ const student = Student.from({ name: "whatever" });
+Or make it an instance method and leave away the assignemnt:
+
+ applyData(json) {
+   Object.assign(this, json);
+ }
+So you can:
+
+ const student = new Student;
+ student.applyData({ name: "whatever" });
+It could also be part of the constructor:
+
+ constructor(options = {}) {
+  Object.assign(this, options);
+ }
+Then you could do:
+
+ const student = new Student({ name: "whatever" });

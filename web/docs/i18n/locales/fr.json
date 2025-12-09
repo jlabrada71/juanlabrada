@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "projects": "Projets",
+    "about": "À propos",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "Services de Construction Premier",
+    "subtitle": "Bâtir l'Excellence Depuis 1995",
+    "description": "Bienvenue chez Premier Construction, votre partenaire de confiance pour tous vos besoins de construction et de rénovation. Avec plus de 25 ans d'expérience, nous offrons un savoir-faire de qualité et un service exceptionnel pour chaque projet.",
+    "services_title": "Nos Services",
+    "recent_work_title": "Nos Travaux Récents",
+    "why_choose_title": "Pourquoi Choisir Premier Construction?",
+    "get_started_title": "Commencez Aujourd'hui",
+    "get_started_description": "Prêt à donner vie à votre vision de construction? Contactez-nous pour une consultation et un devis gratuits."
+  },
+  "services": {
+    "residential": {
+      "title": "Construction Résidentielle",
+      "custom_homes": "Construction de maisons personnalisées",
+      "renovations": "Rénovations et agrandissements de maison",
+      "kitchen_bath": "Rénovation de cuisines et salles de bains",
+      "roofing": "Toiture et revêtement"
+    },
+    "commercial": {
+      "title": "Construction Commerciale",
+      "office_buildings": "Immeubles de bureaux et espaces commerciaux",
+      "warehouse": "Installations industrielles et entrepôts",
+      "restaurant": "Construction de restaurants et d'hôtels",
+      "tenant": "Améliorations locatives"
+    },
+    "specialized": {
+      "title": "Services Spécialisés",
+      "green_building": "Construction écologique et durable",
+      "historic": "Rénovation et restauration historique",
+      "emergency": "Réparations d'urgence et restauration",
+      "project_management": "Gestion de projets et consultation"
+    }
+  },
+  "features": {
+    "licensed": {
+      "title": "Licencié et Assuré",
+      "description": "Entrepreneurs entièrement licenciés avec couverture d'assurance complète"
+    },
+    "quality": {
+      "title": "Savoir-faire de Qualité",
+      "description": "Attention aux détails et matériaux premium dans chaque projet"
+    },
+    "delivery": {
+      "title": "Livraison à Temps",
+      "description": "Projets complétés à temps et dans les limites du budget"
+    },
+    "satisfaction": {
+      "title": "Satisfaction Client",
+      "description": "Notes 5 étoiles et d'innombrables clients satisfaits"
+    }
+  },
+  "contact": {
+    "phone": "Appelez-nous",
+    "email": "Email",
+    "office": "Bureau",
+    "credentials": "Licencié • Cautionné • Assuré"
+  },
+  "projects": {
+    "custom_home": {
+      "title": "Construction de Maison Personnalisée",
+      "description": "Maison familiale moderne avec matériaux durables et design éco-énergétique"
+    },
+    "office_building": {
+      "title": "Immeuble de Bureaux Commercial",
+      "description": "Complexe de bureaux de pointe avec architecture contemporaine"
+    },
+    "kitchen_renovation": {
+      "title": "Rénovation de Cuisine",
+      "description": "Transformation complète de cuisine avec finitions haut de gamme et appareils modernes"
+    }
+  }
+}

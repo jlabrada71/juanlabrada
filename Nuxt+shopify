@@ -1,0 +1,10 @@
+Nuxt+shopify
+
+logical conventions
+high performance
+
+cache control is critical 
+- break out your routes into different cache keys
+- establish your ttls based on your content updates
+- cache your api reponses
+-- 

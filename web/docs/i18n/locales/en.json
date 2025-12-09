@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "projects": "Projects",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "Premier Construction Services",
+    "subtitle": "Building Excellence Since 1995",
+    "description": "Welcome to Premier Construction, your trusted partner for all construction and renovation needs. With over 25 years of experience, we deliver quality craftsmanship and exceptional service for every project.",
+    "services_title": "Our Services",
+    "recent_work_title": "Our Recent Work",
+    "why_choose_title": "Why Choose Premier Construction?",
+    "get_started_title": "Get Started Today",
+    "get_started_description": "Ready to bring your construction vision to life? Contact us for a free consultation and estimate."
+  },
+  "services": {
+    "residential": {
+      "title": "Residential Construction",
+      "custom_homes": "Custom home building",
+      "renovations": "Home renovations and additions",
+      "kitchen_bath": "Kitchen and bathroom remodeling",
+      "roofing": "Roofing and siding"
+    },
+    "commercial": {
+      "title": "Commercial Construction",
+      "office_buildings": "Office buildings and retail spaces",
+      "warehouse": "Warehouse and industrial facilities",
+      "restaurant": "Restaurant and hospitality construction",
+      "tenant": "Tenant improvements"
+    },
+    "specialized": {
+      "title": "Specialized Services",
+      "green_building": "Green building and sustainable construction",
+      "historic": "Historic renovation and restoration",
+      "emergency": "Emergency repairs and restoration",
+      "project_management": "Project management and consulting"
+    }
+  },
+  "features": {
+    "licensed": {
+      "title": "Licensed & Insured",
+      "description": "Fully licensed contractors with comprehensive insurance coverage"
+    },
+    "quality": {
+      "title": "Quality Craftsmanship",
+      "description": "Attention to detail and premium materials in every project"
+    },
+    "delivery": {
+      "title": "On-Time Delivery",
+      "description": "Projects completed on schedule and within budget"
+    },
+    "satisfaction": {
+      "title": "Customer Satisfaction",
+      "description": "5-star ratings and countless satisfied customers"
+    }
+  },
+  "contact": {
+    "phone": "Call us",
+    "email": "Email",
+    "office": "Office",
+    "credentials": "Licensed • Bonded • Insured"
+  },
+  "projects": {
+    "custom_home": {
+      "title": "Custom Home Construction",
+      "description": "Modern family home with sustainable materials and energy-efficient design"
+    },
+    "office_building": {
+      "title": "Commercial Office Building",
+      "description": "State-of-the-art office complex with contemporary architecture"
+    },
+    "kitchen_renovation": {
+      "title": "Kitchen Renovation",
+      "description": "Complete kitchen transformation with high-end finishes and modern appliances"
+    }
+  }
+}
