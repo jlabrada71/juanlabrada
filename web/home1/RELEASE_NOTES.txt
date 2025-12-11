@@ -1,0 +1,92 @@
+=============
+v0.3.1 => Implementing generic deploy
+---------
+7d09fae Implementing generic deploy 1b5feb2 Setting the api to cross-origin resource policy e58b948 Adding nux image bde4f4e Mermaid js test 0409caf Adding support to nuxt security module 60377ca Fixing grammatical error
+=============
+v0.4.0 => Adding support for mermaidjs diagram to nuxt content
+---------
+c708825 Adding support for MermaidJS to nuxt content 70b702a Adding new system design content 9259b5a Adding the images a5f993d Adding three notes on system design dca7910 blog renamed 37edc59 Adding system design template 7bc2a6d Adding notes on system design b28467c Ignoring product version
+=============
+v0.4.0 => Adding support for mermaidjs diagram to nuxt content
+---------
+
+=============
+v0.4.0 => Adding support for mermaidjs diagram to nuxt content
+---------
+24ed92e Creating release v0.4.0 Adding support for mermaidjs diagram to nuxt content
+=============
+v0.4.1 => Adding document not found suport
+---------
+253d909 Adding support to document not found slot ef84896 Creating release v0.4.0 Adding support for mermaidjs diagram to nuxt content 24ed92e Creating release v0.4.0 Adding support for mermaidjs diagram to nuxt content
+=============
+v0.5.0 => Adding more system design posts
+---------
+9ceea78 Adding non-functional requirement blogs
+=============
+v0.5.0 => Adding more system design posts
+---------
+9dff530 Creating release v0.5.0 Adding more system design posts 9ceea78 Adding non-functional requirement blogs
+=============
+v0.4.2 => Adding Well-Architected Framework notes
+---------
+491f344 Adding aws-architecture-well-architected-framework notes 7b51fd2 Creating release v0.5.0 Adding more system design posts 9dff530 Creating release v0.5.0 Adding more system design posts 9ceea78 Adding non-functional requirement blogs
+=============
+v0.5.0 => Adding resource estimation post
+---------
+baa862c Updating package-lock 8ddcb9c Adding resource estimation blog ffa887b Adding resource estimation form b11a767 Reinstalling tailwing components
+=============
+v0.6.0 => Adding categories to posts search
+---------
+8ae7b5a Adding categories 71910b3 Updating the pages tags 6485a69 Creating release v0.5.0 Adding resource estimation post baa862c Updating package-lock 8ddcb9c Adding resource estimation blog ffa887b Adding resource estimation form b11a767 Reinstalling tailwing components
+=============
+v0.7.0 => Improving blog design
+---------
+d9d8a64 Improving blog design 745f608 Adding system design blogs 81a27c1 Adding new Mermaid support
+=============
+v0.8.0-6c7ccb3 => New
+---------
+6c7ccb3 Adding architecture notes
+=============
+v0.9.0-441083e => Build
+---------
+
+=============
+v0.10.0-c1832b1 => Build improved
+---------
+c1832b1 Improved build process
+=============
+v0.11.0-b6100af => Build improved
+---------
+
+=============
+v0.12.0-b18068e => Moving output to build.log
+---------
+b18068e Build deploy improved
+=============
+v0.12.0-fbf926a => Moving output to build.log
+---------
+
+=============
+0.13.0-19518ef => Getting version tag from package.json
+---------
+19518ef Getting version from package.json
+=============
+0.14.0-0fec702 => Executing deploy remotely
+---------
+0fec702 Executing deploy remotely
+=============
+0.14.0-b124ebf => New blogs added
+---------
+b124ebf New blogs
+=============
+0.14.0-ee83e0c => Solving accessibility issues
+---------
+ee83e0c Testing the kadanes algorithms 72859fb How to automate git deployments 4d0dad4 Solving some accessibility issues 0188b21 Adding some new posts
+=============
+0.14.0-7403177 => removing content support
+---------
+7403177 Removing unnecessary logs 4acc429 Removing nuxt content support
+=============
+0.14.0-7cc9944 => Replacing recent post links
+---------
+7cc9944 Replacing recent posts links

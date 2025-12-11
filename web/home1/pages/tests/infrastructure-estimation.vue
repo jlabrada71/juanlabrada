@@ -1,0 +1,4 @@
+<template>
+  <SystemDesignServerEstimation />
+</template>
+
