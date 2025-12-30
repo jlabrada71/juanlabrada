@@ -7,7 +7,7 @@
                 <h2 class="text-lg font-semibold">Gallery 1</h2>
                 <p class="text-gray-500">Changing the image width and height on hover within a grid.</p>
                 <div class="flex justify-center">
-                    <ExperimentsImageGallery4 />
+                    <ImageGallery4 />
                 </div>
             </div>
 
@@ -15,7 +15,7 @@
                 <h2 class="text-lg font-semibold">Gallery 2</h2>
                 <p class="text-gray-500">Changing the image width on hover within a grid.</p>
                 <div class="flex justify-center">
-                    <ExperimentsImageGallery1 />
+                    <ImageGallery1 />
                 </div>
             </div>
 
@@ -23,39 +23,9 @@
                 <h2 class="text-lg font-semibold">Mermaid Graph</h2>
                 <p class="text-gray-500">Creating a UML graph using Mermaid.</p>
                 <div class="flex justify-center">
-                    <ExperimentsMermaidDemo />
+                    <MermaidDemo />
                 </div>
             </div>
         </div>
     </div>
 </template>
-
-<script>
-export default {
-    data() {
-        return {
-            experiments: [
-                {
-                    id: 1,
-                    title: "Experiment 1",
-                    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                },
-                {
-                    id: 2,
-                    title: "Experiment 2",
-                    description: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                },
-                {
-                    id: 3,
-                    title: "Experiment 3",
-                    description: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                },
-            ],
-        };
-    },
-};
-</script>
-
-<style>
-/* Add Tailwind CSS classes here if needed */
-</style>
