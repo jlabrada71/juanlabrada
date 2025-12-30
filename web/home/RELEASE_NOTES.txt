@@ -90,3 +90,7 @@ ee83e0c Testing the kadanes algorithms 72859fb How to automate git deployments 4
 0.14.0-7cc9944 => Replacing recent post links
 ---------
 7cc9944 Replacing recent posts links
+=============
+0.14.0-a3fa7e7 => Fix hero image
+---------
+
