@@ -1,5 +1,5 @@
 <template>
-  <ExperimentsShowCard>
+  <ShowCard>
     <template #title>
       Path Animation
     </template>
@@ -24,7 +24,7 @@
         </svg>
       </div>
     </template>
-  </ExperimentsShowCard>
+  </ShowCard>
 </template>
 
 <style scoped lang="scss">

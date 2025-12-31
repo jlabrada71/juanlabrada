@@ -1,5 +1,5 @@
 <template>
-  <ExperimentsShowCard>
+  <ShowCard>
     <template #title>
       Pattern Generator
     </template>
@@ -37,7 +37,7 @@
         </div>
       </div>
     </template>
-  </ExperimentsShowCard>
+  </ShowCard>
 </template>
 <script setup>
   import { ref, computed } from 'vue'

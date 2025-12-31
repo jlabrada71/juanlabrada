@@ -1,5 +1,5 @@
 <template>
-  <ExperimentsShowCard>
+  <ShowCard>
     <template #title>
       Text Animation
     </template>
@@ -14,7 +14,7 @@
         blur word
       </h1>
     </template>
-  </ExperimentsShowCard>
+  </ShowCard>
 </template>
 
 <style scoped lang="scss">

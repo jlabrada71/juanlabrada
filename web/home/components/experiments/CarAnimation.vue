@@ -1,5 +1,5 @@
 <template>
-  <ExperimentsShowCard>
+  <ShowCard>
     <template #title>
       Car Animation
     </template>
@@ -12,7 +12,7 @@
         <div class="car" />
       </div>
     </template>
-  </ExperimentsShowCard>
+  </ShowCard>
 </template>
 
 <style scoped lang="scss">

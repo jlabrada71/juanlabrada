@@ -1,5 +1,5 @@
 <template>
-  <ExperimentsShowCard>
+  <ShowCard>
     <template #title>
       Smoky Text Animation
     </template>
@@ -13,7 +13,7 @@
     <template #show  class="container">
       <span>E</span><span>X</span><span>P</span><span>E</span><span>R</span><span>I</span><span>M</span><span>E</span><span>N</span><span>T</span>
     </template>
-  </ExperimentsShowCard>
+  </ShowCard>
 </template>
 
 <style scoped lang="scss">

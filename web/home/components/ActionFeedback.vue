@@ -1,5 +1,5 @@
 <template>
-  <DaisyuiAlert title="Notification" :message="props.message" :show="show" @close="()=> show = false"></DaisyuiAlert>
+  <Alert title="Notification" :message="props.message" :show="show" @close="()=> show = false"></Alert>
 </template>
 <script setup>
   import { ref, computed } from 'vue';

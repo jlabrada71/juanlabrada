@@ -1,5 +1,5 @@
 <template>
-  <ExperimentsShowCard>
+  <ShowCard>
     <template #title>
       Bright Border
     </template>
@@ -11,7 +11,7 @@
       <div class="conic" />
       <div class="conic conic-demo" />
     </template>
-  </ExperimentsShowCard>
+  </ShowCard>
 </template>
 
 <style scoped lang="scss">

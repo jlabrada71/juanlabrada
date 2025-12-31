@@ -1,5 +1,5 @@
 <template>
-  <ExperimentsShowCard>
+  <ShowCard>
     <!-- <template #title>
       Hexagon Shaped Image
     </template>
@@ -19,7 +19,7 @@
         
       </div>
     </template>
-  </ExperimentsShowCard>
+  </ShowCard>
 </template>
 
 <style scoped>

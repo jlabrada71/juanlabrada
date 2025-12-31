@@ -1,5 +1,5 @@
 <template>
-  <ExperimentsShowCard>
+  <ShowCard>
     <template #title>
       Smoke Text Hover
     </template>
@@ -17,7 +17,7 @@
         </filter>
       </svg>
     </template>
-  </ExperimentsShowCard>
+  </ShowCard>
 </template>
 
 <script>

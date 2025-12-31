@@ -1,5 +1,5 @@
 <template>
-  <ExperimentsShowCard>
+  <ShowCard>
     <template #title>
       Image Gallery
     </template>
@@ -17,7 +17,7 @@
         <img src="@/assets/images/1039-400x400.jpg" alt="a waterfall, a lot of tree and a great view from the sky">
       </div>
     </template>
-  </ExperimentsShowCard>
+  </ShowCard>
 </template>
 
 <style scoped>

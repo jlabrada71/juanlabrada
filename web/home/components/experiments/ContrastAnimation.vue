@@ -1,5 +1,5 @@
 <template>
-  <ExperimentsShowCard>
+  <ShowCard>
     <template #title>
       Contrast Animation
     </template>
@@ -10,7 +10,7 @@
     <template #show  class="container">
       <div id="button" />
     </template>
-  </ExperimentsShowCard>
+  </ShowCard>
 </template>
 
 <style scoped lang="scss">
@@ -26,7 +26,7 @@
     height: 100vh;
     background: linear-gradient(45deg, #000 0, #000 50%, #fff 50%);
     &::before {
-        content: "EXPERIMENTS";
+        content: "";
         position: absolute;
         top: 50%;
         left: 50%;

@@ -1,5 +1,5 @@
 <template>
-    <DaisyuiAlert :title="title" :message="message" :show="showMessage" @close="hide"></DaisyuiAlert>
+    <Alert :title="title" :message="message" :show="showMessage" @close="hide"></Alert>
 
     <div class="flex flex-row gap-5">
         <button @click="show" class="bg-red-500 border border-2 p-4" >Show</button>

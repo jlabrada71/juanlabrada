@@ -1,5 +1,5 @@
 <template>
-  <ExperimentsShowCard>
+  <ShowCard>
     <template #title>
       Colorfull Loader
     </template>
@@ -23,7 +23,7 @@
         <i></i><i></i><i></i><i></i><i></i><i></i>
       </div>
     </template>
-  </ExperimentsShowCard>
+  </ShowCard>
 </template>
 <style lang="scss" scoped>
 

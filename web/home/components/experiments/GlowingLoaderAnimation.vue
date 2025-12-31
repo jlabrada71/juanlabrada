@@ -1,5 +1,5 @@
 <template>
-  <ExperimentsShowCard>
+  <ShowCard>
     <template #title>
       Glowing Loader Animation
     </template>
@@ -12,7 +12,7 @@
     <template #show  class="container">
       <div class="loader" />
     </template>
-  </ExperimentsShowCard>
+  </ShowCard>
 </template>
 
 <style scoped lang="scss">

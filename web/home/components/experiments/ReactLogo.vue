@@ -1,5 +1,5 @@
 <template>
-  <ExperimentsShowCard>
+  <ShowCard>
     <template #title>
       React Logo Animated
     </template>
@@ -15,7 +15,7 @@
         <div class="ellipse ellipse3"></div>
       </div>
     </template>
-  </ExperimentsShowCard>
+  </ShowCard>
 </template>
 
 <style scoped>

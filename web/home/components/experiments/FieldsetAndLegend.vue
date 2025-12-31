@@ -1,5 +1,5 @@
 <template>
-  <ExperimentsShowCard>
+  <ShowCard>
     <template #title>
       Fieldset and Legend
     </template>
@@ -13,7 +13,7 @@
       <fieldset><legend>JavaScript</legend></fieldset>
       <fieldset><legend>TypeScript</legend></fieldset>
     </template>
-  </ExperimentsShowCard>
+  </ShowCard>
 </template>
 <style scoped>
 .container {

@@ -1,5 +1,5 @@
 <template>
-  <ExperimentsShowCard>
+  <ShowCard>
     <template #title>
       Glue Contrast
     </template>
@@ -11,7 +11,7 @@
     <template #show  class="container">
       <div class="filter-mix" />
     </template>
-  </ExperimentsShowCard>
+  </ShowCard>
 </template>
 
 <style scoped lang="scss">

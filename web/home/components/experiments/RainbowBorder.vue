@@ -1,5 +1,5 @@
 <template>
-  <ExperimentsShowCard>
+  <ShowCard>
     <template #title>
       Rainbow Border
     </template>
@@ -10,7 +10,7 @@
     <template #show  class="container">
       <div class="rainbow" />
     </template>
-  </ExperimentsShowCard>
+  </ShowCard>
 </template>
 
 <style scoped lang="scss">
