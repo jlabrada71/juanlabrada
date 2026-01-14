@@ -10,7 +10,7 @@ import axios from 'axios'
 export default defineEventHandler(async (event) => {
     const body = await readBody(event)
     const req = event.node.req
-    debug(Object.keys(req))   
+    // debug(Object.keys(req))   
     return store(req, body)
 })
 
