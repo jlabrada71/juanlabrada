@@ -3,7 +3,7 @@ import { debug } from '@/lib/logger'
 
 // this code is used to debug axios requests
 axios.interceptors.request.use((request) => {
-  debug('Starting Request', JSON.stringify(request, null, 2))
+  debug('Starting Request'+ request.url, 'api-request')
   return request
 })
 axios.interceptors.response.use((response) => {

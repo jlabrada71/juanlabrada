@@ -39,9 +39,15 @@ async function store(req, body) {
   const ips = ip.split(',').map(newIp => newIp.trim())
   const searchIp = ips.length > 0 ? ips[ips.length - 1] : ''
   if (searchIp) {
-    const response = await axios.get(`http://api.ipapi.com/${ips[0]}?access_key=736e17f31858d7b50670c30149e63fae`)
-    const geoData = response.data
-    data.countryCode = geoData.country_code
+    try {
+      const response = await axios.get(`https://geo.ipify.org/api/v2/country,city?apiKey=at_qIH2HfQsTznud6lwzlBOk26edIi2y&ipAddress=${searchIp}`)
+      const geoData = response.data
+      data.countryCode = geoData.country_code
+    }
+    catch (e) {
+      log(e.stack, 'analytics-routes')
+      data.countryCode = 'Unknown'
+    }
   } else {
     data.countryCode = 'Unknown'
   }
