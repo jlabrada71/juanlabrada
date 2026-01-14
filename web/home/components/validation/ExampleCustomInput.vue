@@ -16,7 +16,7 @@ const [email, emailProps] = defineField('email',{
 
 <template>
     <h1>Custom Input</h1>
-    <ValidationCustomInput v-model="email" v-bind="emailProps" />
+    <ValidationCustomInputExample v-model="email" v-bind="emailProps" />
 
     <pre>errors: {{ errors }}</pre>
     <pre>values: {{ values }}</pre>
