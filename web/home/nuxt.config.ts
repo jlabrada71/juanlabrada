@@ -44,7 +44,7 @@ export default defineNuxtConfig({
   runtimeConfig: {
     MONGO_URL: process.env.MONGO_URL,
     MONGO_DB: process.env.MONGO_DB,
-    MAILER_PASS: '8jpMV8QHUZuh',
+    MAILER_PASS: process.env.MAILER_PASS,
     MAILER_ACCOUNT: 'agile@juanlabrada.com',
     HEART_BEAT: process.env.HEART_BEAT,
     ZIP_IMAGES: process.env.ZIP_IMAGES,
