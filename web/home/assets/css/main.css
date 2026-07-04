@@ -1,3 +1,86 @@
+@import '@fontsource-variable/geist';
+@import '@fontsource/hanken-grotesk/400.css';
+@import '@fontsource/hanken-grotesk/600.css';
+@import '@fontsource/jetbrains-mono/400.css';
+@import '@fontsource/jetbrains-mono/600.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --glass-bg: rgba(23, 31, 51, 0.6);
+  --glass-border: 1px solid rgba(0, 240, 255, 0.1);
+  --glass-blur: blur(24px);
+  --glow-primary: 0 0 20px rgba(0, 240, 255, 0.25);
+  --glow-primary-strong: 0 0 40px rgba(0, 240, 255, 0.4);
+}
+
+@layer components {
+  .glass-card {
+    background: var(--glass-bg);
+    backdrop-filter: var(--glass-blur);
+    -webkit-backdrop-filter: var(--glass-blur);
+    border: var(--glass-border);
+    border-radius: 0.75rem;
+  }
+
+  .btn-primary-cyber {
+    @apply inline-flex items-center justify-center px-6 py-3 rounded font-semibold text-sm;
+    background-color: #00f0ff;
+    color: #00363a;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+  }
+  .btn-primary-cyber:hover {
+    box-shadow: var(--glow-primary-strong);
+    transform: translateY(-1px);
+  }
+
+  .btn-ghost-cyber {
+    @apply inline-flex items-center justify-center px-6 py-3 rounded font-semibold text-sm;
+    background: rgba(0, 240, 255, 0.08);
+    color: #00f0ff;
+    border: 1px solid rgba(0, 240, 255, 0.3);
+    transition: background 0.2s ease, box-shadow 0.2s ease;
+  }
+  .btn-ghost-cyber:hover {
+    background: rgba(0, 240, 255, 0.15);
+    box-shadow: var(--glow-primary);
+  }
+
+  .input-cyber {
+    @apply w-full px-0 py-3 bg-transparent outline-none;
+    color: #dae2fd;
+    border-bottom: 1px solid #3b494b;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  }
+  .input-cyber::placeholder {
+    color: #849495;
+  }
+  .input-cyber:focus {
+    border-bottom-color: #00f0ff;
+    box-shadow: 0 1px 0 #00f0ff;
+  }
+
+  .label-caps {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .tech-chip {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    background: rgba(101, 242, 181, 0.12);
+    color: #65f2b5;
+    border: 1px solid rgba(101, 242, 181, 0.25);
+  }
+}
