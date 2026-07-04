@@ -1,14 +1,12 @@
 
-<template> 
-  <div class="bg-slate-700 w-full">
+<template>
+  <div class="bg-cyber-bg w-full">
+    <SiteHeader />
     <HeroPage />
-    <AnimationTestTwo />
-    <AnimationTest />
-    <RecentExperiments />
-    <RecentProducts />
     <RecentExperiences />
+    <RecentProducts />
+    <RecentExperiments />
     <RecentPosts />
     <ContactMe />
   </div>
 </template>
-  
