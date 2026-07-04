@@ -1,27 +1,38 @@
 <template>
-  <div class=" bg-[url(/images/20230725_155258.jpg)] bg-cover flex flex-col justify-center align-items-center  p-10 bg-slate-200 w-full h-screen">
+  <section class="relative min-h-screen flex flex-col justify-center items-center overflow-hidden px-6 pt-16"
+           style="background: radial-gradient(ellipse 80% 60% at 50% -10%, rgba(0,240,255,0.12) 0%, transparent 60%), #0b1326;">
 
-    <div class=" flex-col  bg-unset gap-5 flex justify-center">
-      <div class="hidden gap-5 p-5 lg:flex flex-row flex-wrap justify-start bg-unset">
-        <SquaredButton title="Experience" url="#experiences"></SquaredButton>
-        <SquaredButton title="Products" url="#products"></SquaredButton>
-        <SquaredButton title="Experiments" url="#experiments"></SquaredButton>
-        <SquaredButton title="Posts" url="#posts"></SquaredButton>
-        <SquaredButton title="Contact" url="#contact"></SquaredButton>
+    <!-- Subtle grid overlay -->
+    <div class="absolute inset-0 pointer-events-none"
+         style="background-image: linear-gradient(rgba(0,240,255,0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(0,240,255,0.03) 1px, transparent 1px); background-size: 48px 48px;" />
+
+    <div class="relative z-10 flex flex-col items-center text-center gap-6 max-w-4xl mx-auto">
+      <!-- Role tag -->
+      <span class="label-caps text-cyber-primary">
+        Fullstack Engineer · Vue.js · Node.js
+      </span>
+
+      <!-- Headline -->
+      <h1 class="font-geist font-bold text-cyber-text leading-tight"
+          style="font-size: clamp(2.5rem, 6vw, 4rem); letter-spacing: -0.02em;">
+        Building Systems That<br />
+        <span style="color: #00f0ff;">Solve Real Problems</span>
+      </h1>
+
+      <!-- Quote -->
+      <QuoteWindow />
+
+      <!-- CTAs -->
+      <div class="flex flex-wrap gap-4 justify-center mt-2">
+        <a href="#products" class="btn-primary-cyber">View Projects</a>
+        <a href="#experiences" class="btn-ghost-cyber">Experience</a>
       </div>
-      <JuanImage></JuanImage>
-      
-      <QuoteWindow></QuoteWindow>
-      
+
+      <!-- Photo -->
+      <JuanImage />
     </div>
-  </div>
+  </section>
 </template>
+
 <script setup>
-const props = defineProps({
-
-})
-const emit = defineEmits([])
 </script>
-<style scoped>
-
-</style>
