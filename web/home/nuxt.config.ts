@@ -32,10 +32,6 @@ export default defineNuxtConfig({
       ],
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Poppins:400|Abril+Fatface:400' },
-        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Poppins:400|Abril+Fatface:400' },
-        { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
-        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=WindSong:wght@500&display=swap' },
         { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/@mdi/font@6.x/css/materialdesignicons.min.css' }
       ]
     },

@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-slate-700 w-full flex flex-col justify-around items-center">
+  <div class="bg-cyber-bg min-h-screen w-full flex flex-col">
     <slot />
   </div>
 </template>
