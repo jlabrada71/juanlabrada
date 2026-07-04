@@ -1,31 +1,37 @@
 <template>
-    <div id="experiments" class="container mx-auto  min-h-96 h-fit  bg-slate-400 p-10">
-        <h1 class="text-3xl font-bold mb-4">Recent Experiments</h1>
-        <div class="flex flex-col lg:flex-row gap-4">
-            <!-- Recent experiments items -->
-            <div class="bg-white p-4 shadow rounded">
-                <h2 class="text-lg font-semibold">Gallery 1</h2>
-                <p class="text-gray-500">Changing the image width and height on hover within a grid.</p>
-                <div class="flex justify-center">
-                    <ImageGallery4 />
-                </div>
-            </div>
+  <section id="experiments" class="w-full py-24 px-6" style="background: #0b1326;">
+    <div class="max-w-5xl mx-auto">
+      <p class="label-caps text-cyber-primary mb-3">Playground</p>
+      <h2 class="font-geist font-semibold text-cyber-text mb-12"
+          style="font-size: 2.5rem; letter-spacing: -0.01em;">
+        Experiments
+      </h2>
 
-            <div class="bg-white p-4 shadow rounded">
-                <h2 class="text-lg font-semibold">Gallery 2</h2>
-                <p class="text-gray-500">Changing the image width on hover within a grid.</p>
-                <div class="flex justify-center">
-                    <ImageGallery1 />
-                </div>
-            </div>
-
-            <div class="bg-white p-4 shadow rounded">
-                <h2 class="text-lg font-semibold">Mermaid Graph</h2>
-                <p class="text-gray-500">Creating a UML graph using Mermaid.</p>
-                <div class="flex justify-center">
-                    <MermaidDemo />
-                </div>
-            </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="glass-card p-6 flex flex-col gap-3">
+          <h3 class="font-geist font-semibold text-cyber-text">Gallery 1</h3>
+          <p class="font-hanken text-cyber-muted text-sm">Changing image width and height on hover within a grid.</p>
+          <div class="mt-auto overflow-hidden rounded-lg">
+            <ImageGallery4 />
+          </div>
         </div>
+
+        <div class="glass-card p-6 flex flex-col gap-3">
+          <h3 class="font-geist font-semibold text-cyber-text">Gallery 2</h3>
+          <p class="font-hanken text-cyber-muted text-sm">Expanding image width on hover within a grid.</p>
+          <div class="mt-auto overflow-hidden rounded-lg">
+            <ImageGallery1 />
+          </div>
+        </div>
+
+        <div class="glass-card p-6 flex flex-col gap-3">
+          <h3 class="font-geist font-semibold text-cyber-text">Mermaid Graph</h3>
+          <p class="font-hanken text-cyber-muted text-sm">Generating UML diagrams from text using Mermaid.</p>
+          <div class="mt-auto overflow-hidden rounded-lg">
+            <MermaidDemo />
+          </div>
+        </div>
+      </div>
     </div>
+  </section>
 </template>

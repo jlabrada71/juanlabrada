@@ -1,49 +1,42 @@
 <template>
-    <div id="posts" class="container mx-auto min-h-96  bg-slate-400 p-10">
-        <h1 class="text-3xl font-bold mb-4">Recent Posts</h1>
-        <div class="flex flex-col lg:flex-row justify-center gap-4">
-            <div class="bg-white p-4 shadow rounded">
-                <h2 class="text-lg font-semibold">4 Rules of Simple Design</h2>
-                <a href="https://docs.juanlabrada.com/blog/4-rules-of-simple-design">Click here</a>
-            </div>
+  <section id="posts" class="w-full py-24 px-6" style="background: #0d1628;">
+    <div class="max-w-5xl mx-auto">
+      <p class="label-caps text-cyber-primary mb-3">Writing</p>
+      <h2 class="font-geist font-semibold text-cyber-text mb-12"
+          style="font-size: 2.5rem; letter-spacing: -0.01em;">
+        Posts
+      </h2>
 
-            <div class="bg-white p-4 shadow rounded">
-                <h2 class="text-lg font-semibold">Test Driven Development ROI</h2>
-                 <a href="https://docs.juanlabrada.com/blog/test-driven-development-roi">Click here</a>
-            </div>
-
-            <div class="bg-white p-4 shadow rounded">
-                <h2 class="text-lg font-semibold">Liskov Substitution Principle</h2>
-                 <a href="https://docs.juanlabrada.com/blog/liskov-substitution-principle">Click here</a>
-            </div>
-        </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <a v-for="post in posts" :key="post.title"
+           :href="post.url"
+           target="_blank"
+           rel="noopener"
+           class="glass-card p-6 flex flex-col gap-3 group"
+           style="text-decoration: none;">
+          <h3 class="font-geist font-semibold text-cyber-text group-hover:text-cyber-primary transition-colors">
+            {{ post.title }}
+          </h3>
+          <span class="label-caps text-cyber-primary mt-auto">Read →</span>
+        </a>
+      </div>
     </div>
+  </section>
 </template>
 
-<script>
-export default {
-    data() {
-        return {
-            recentPosts: [
-                {
-                    id: 1,
-                    title: "Post 1",
-                    date: "2022-01-01",
-                    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                },
-                {
-                    id: 2,
-                    title: "Post 2",
-                    date: "2022-01-02",
-                    description: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                },
-                // Add more recent posts here
-            ],
-        };
-    },
-};
+<script setup>
+const posts = [
+  {
+    title: '4 Rules of Simple Design',
+    url: 'https://docs.juanlabrada.com/blog/4-rules-of-simple-design',
+  },
+  {
+    title: 'Test Driven Development ROI',
+    url: 'https://docs.juanlabrada.com/blog/test-driven-development-roi',
+  },
+  {
+    title: 'Liskov Substitution Principle',
+    url: 'https://docs.juanlabrada.com/blog/liskov-substitution-principle',
+  },
+]
 </script>
-
-<style>
-/* Add Tailwind CSS classes here */
-</style>
