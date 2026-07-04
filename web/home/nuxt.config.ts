@@ -68,6 +68,20 @@ export default defineNuxtConfig({
         },
       },
     },
+    optimizeDeps: {
+      include: [
+        'axios',
+        'tiny-case', // CJS
+        'vee-validate',
+        'vue-mermaid-string',
+        'property-expr'
+      ]
+    },
+    build: {
+    commonjsOptions: {
+      include: [/node_modules/]
+    }
+  }
   },
 
   modules: ['@vueuse/nuxt', "nuxt-security", '@nuxt/devtools'],

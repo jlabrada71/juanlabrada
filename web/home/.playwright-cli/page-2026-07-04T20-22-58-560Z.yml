@@ -1,0 +1,182 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - link "Juan Labrada" [ref=e6] [cursor=pointer]:
+      - /url: /
+    - navigation [ref=e7]:
+      - link "Experience" [ref=e8] [cursor=pointer]:
+        - /url: "#experiences"
+      - link "Products" [ref=e9] [cursor=pointer]:
+        - /url: "#products"
+      - link "Experiments" [ref=e10] [cursor=pointer]:
+        - /url: "#experiments"
+      - link "Posts" [ref=e11] [cursor=pointer]:
+        - /url: "#posts"
+    - link "Contact" [ref=e12] [cursor=pointer]:
+      - /url: "#contact"
+    - text: 󰍜
+  - generic [ref=e14]:
+    - generic [ref=e15]: Fullstack Engineer · Vue.js · Node.js
+    - heading "Building Systems That Solve Real Problems" [level=1] [ref=e16]:
+      - text: Building Systems That
+      - text: Solve Real Problems
+    - generic [ref=e17]:
+      - link "View Projects" [ref=e18] [cursor=pointer]:
+        - /url: "#products"
+      - link "Experience" [ref=e19] [cursor=pointer]:
+        - /url: "#experiences"
+    - generic [ref=e20]:
+      - heading "Software Developer" [level=1] [ref=e21]
+      - figure "Juan R Labrada" [ref=e22]:
+        - img "Juan Agile Scrum" [ref=e23]
+        - heading "Juan R Labrada" [level=3] [ref=e26]
+  - generic [ref=e28]:
+    - paragraph [ref=e29]: Career
+    - heading "Experience" [level=2] [ref=e30]
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - heading "Senior Software Developer" [level=3] [ref=e34]
+          - paragraph [ref=e35]: MonetizeMore
+          - paragraph [ref=e36]: Built and maintained ad tech revenue optimization platform features using Vue.js and Node.js.
+          - generic [ref=e37]:
+            - generic [ref=e38]: Vue.js
+            - generic [ref=e39]: Node.js
+            - generic [ref=e40]: TypeScript
+        - generic [ref=e41]: 2022 – Present
+      - generic [ref=e42]:
+        - generic [ref=e43]:
+          - heading "Senior Software Developer" [level=3] [ref=e44]
+          - paragraph [ref=e45]: WPlex
+          - paragraph [ref=e46]: Developed full-stack web applications and REST APIs for WordPress hosting infrastructure.
+          - generic [ref=e47]:
+            - generic [ref=e48]: Vue.js
+            - generic [ref=e49]: PHP
+            - generic [ref=e50]: REST API
+        - generic [ref=e51]: 2020 – 2022
+      - generic [ref=e52]:
+        - generic [ref=e53]:
+          - heading "Senior Software Developer" [level=3] [ref=e54]
+          - paragraph [ref=e55]: Experian
+          - paragraph [ref=e56]: Contributed to credit data analytics dashboards and data pipeline integrations.
+          - generic [ref=e57]:
+            - generic [ref=e58]: Angular
+            - generic [ref=e59]: Java
+            - generic [ref=e60]: SQL
+        - generic [ref=e61]: 2018 – 2020
+  - generic [ref=e63]:
+    - paragraph [ref=e64]: Work
+    - heading "Products" [level=2] [ref=e65]
+    - generic [ref=e66]:
+      - generic [ref=e67]:
+        - generic [ref=e68]:
+          - heading "MabayJS" [level=3] [ref=e69]
+          - generic [ref=e70]: OSS
+        - generic [ref=e71]:
+          - generic [ref=e72]:
+            - paragraph [ref=e73]: Problem
+            - paragraph [ref=e74]: Manually writing boilerplate code for CRUD models slows down development cycles.
+          - generic [ref=e75]:
+            - paragraph [ref=e76]: Stack
+            - generic [ref=e77]:
+              - generic [ref=e78]: Node.js
+              - generic [ref=e79]: JavaScript
+        - link "View on GitHub" [ref=e80] [cursor=pointer]:
+          - /url: https://github.com/jlabrada71/mabayjs
+      - generic [ref=e81]:
+        - generic [ref=e82]:
+          - heading "Palette Generator" [level=3] [ref=e83]
+          - generic [ref=e84]: Tool
+        - generic [ref=e85]:
+          - generic [ref=e86]:
+            - paragraph [ref=e87]: Problem
+            - paragraph [ref=e88]: Designers need instant harmonic color palettes with contrast-safe combinations.
+          - generic [ref=e89]:
+            - paragraph [ref=e90]: Stack
+            - generic [ref=e91]:
+              - generic [ref=e92]: Vue.js
+              - generic [ref=e93]: chroma-js
+        - link "Open Tool" [ref=e94] [cursor=pointer]:
+          - /url: /color-tools
+      - generic [ref=e95]:
+        - generic [ref=e96]:
+          - heading "UTM Builder" [level=3] [ref=e97]
+          - generic [ref=e98]: Tool
+        - generic [ref=e99]:
+          - generic [ref=e100]:
+            - paragraph [ref=e101]: Problem
+            - paragraph [ref=e102]: Marketing teams waste time hand-crafting UTM tracking URLs for ad campaigns.
+          - generic [ref=e103]:
+            - paragraph [ref=e104]: Stack
+            - generic [ref=e105]:
+              - generic [ref=e106]: Vue.js
+              - generic [ref=e107]: Nuxt
+        - link "Open Tool" [ref=e108] [cursor=pointer]:
+          - /url: /utm-builder
+  - generic [ref=e110]:
+    - paragraph [ref=e111]: Playground
+    - heading "Experiments" [level=2] [ref=e112]
+    - generic [ref=e113]:
+      - generic [ref=e114]:
+        - heading "Gallery 1" [level=3] [ref=e115]
+        - paragraph [ref=e116]: Changing image width and height on hover within a grid.
+        - generic [ref=e120]:
+          - img "a forest after an apocalypse" [ref=e121] [cursor=pointer]
+          - img "a waterfall and many rocks" [ref=e122] [cursor=pointer]
+          - img "a house on a mountain" [ref=e123] [cursor=pointer]
+          - img "sime pink flowers" [ref=e124] [cursor=pointer]
+          - img "big rocks with some trees" [ref=e125] [cursor=pointer]
+          - img "a waterfall, a lot of tree and a great view from the sky" [ref=e126] [cursor=pointer]
+          - img "a cool landscape" [ref=e127] [cursor=pointer]
+          - img "inside a town between two big buildings" [ref=e128] [cursor=pointer]
+          - img "a great view of the sea above the mountain" [ref=e129] [cursor=pointer]
+          - img "a great view of a canyon" [ref=e130] [cursor=pointer]
+          - img "a great view of a river between mountains" [ref=e131] [cursor=pointer]
+          - img "a wild bear appeared" [ref=e132] [cursor=pointer]
+      - generic [ref=e133]:
+        - heading "Gallery 2" [level=3] [ref=e134]
+        - paragraph [ref=e135]: Expanding image width on hover within a grid.
+        - generic [ref=e139]:
+          - img "a forest after an apocalypse" [ref=e140] [cursor=pointer]
+          - img "a waterfall and many rocks" [ref=e141] [cursor=pointer]
+          - img "a house on a mountain" [ref=e142] [cursor=pointer]
+          - img "sime pink flowers" [ref=e143] [cursor=pointer]
+          - img "big rocks with some trees" [ref=e144] [cursor=pointer]
+      - generic [ref=e145]:
+        - heading "Mermaid Graph" [level=3] [ref=e146]
+        - paragraph [ref=e147]: Generating UML diagrams from text using Mermaid.
+        - main [ref=e149]:
+          - generic [ref=e150]: "stateDiagram direction TB accTitle: This is the accessible title accDescr: This is an accessible description classDef notMoving fill:white classDef movement font-style:italic classDef activeState fill:#f00,color:white,font-weight:bold,stroke-width:2px,stroke:yellow [*] --> Wrapper Wrapper --> PrebidJS : Configure Bids Wrapper --> PrebidJS : Request Bids state PrebidJS { AuctionConfigured --> ConfigureBidders ConfigureBidders --> [*] RequestingBids --> PrebidAuction ReturnBestBid --> BidsBack BidsBack --> ScaleBids ReturnScaledBids --> SelectWinner SelectWinner --> SetTargetting } state PrebidServer { PrebidAuction --> SelectBestBid SelectBestBid --> ReturnBestBid } state Wrapper { ConfigureAuction --> AuctionConfigured ScaleBids --> ReturnScaledBids SetTargetting --> RefreshSlot RefreshSlot --> AdServerAuction RenderCreative --> [*] } state AdServer { AdServerAuction --> AuctionWon AuctionWon --> RenderCreative } class ConfigureAuction activeState"
+          - button "Next" [ref=e151] [cursor=pointer]
+  - generic [ref=e153]:
+    - paragraph [ref=e154]: Writing
+    - heading "Posts" [level=2] [ref=e155]
+    - generic [ref=e156]:
+      - link "4 Rules of Simple Design Read →" [ref=e157] [cursor=pointer]:
+        - /url: https://docs.juanlabrada.com/blog/4-rules-of-simple-design
+        - heading "4 Rules of Simple Design" [level=3] [ref=e158]
+        - generic [ref=e159]: Read →
+      - link "Test Driven Development ROI Read →" [ref=e160] [cursor=pointer]:
+        - /url: https://docs.juanlabrada.com/blog/test-driven-development-roi
+        - heading "Test Driven Development ROI" [level=3] [ref=e161]
+        - generic [ref=e162]: Read →
+      - link "Liskov Substitution Principle Read →" [ref=e163] [cursor=pointer]:
+        - /url: https://docs.juanlabrada.com/blog/liskov-substitution-principle
+        - heading "Liskov Substitution Principle" [level=3] [ref=e164]
+        - generic [ref=e165]: Read →
+  - generic [ref=e167]:
+    - paragraph [ref=e168]: Let's Talk
+    - heading "Contact Me" [level=2] [ref=e169]
+    - generic [ref=e170]:
+      - generic [ref=e171]:
+        - generic [ref=e172]: Name
+        - textbox "Name" [ref=e173]:
+          - /placeholder: Your name
+      - generic [ref=e174]:
+        - generic [ref=e175]: Email
+        - textbox "Email" [ref=e176]:
+          - /placeholder: your@email.com
+      - generic [ref=e177]:
+        - generic [ref=e178]: Message
+        - textbox "Message" [ref=e179]:
+          - /placeholder: What's on your mind?
+      - button "Send Message" [ref=e180] [cursor=pointer]
