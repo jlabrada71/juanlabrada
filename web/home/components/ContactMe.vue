@@ -1,34 +1,51 @@
 <template>
-    <div id="contact" class="container mx-auto w-full min-h-96 h-screen bg-slate-400 p-10">
-        <ActionFeedback 
-            :message="feedbackMessage" 
-            v-model:show="showFeedback">
-        </ActionFeedback>
-        <div  class="flex justify-center items-center ">
-            <form class="w-full p-6 bg-white rounded shadow-md"  @submit="onSubmit">
-                <h2 class="text-3xl font-bold mb-4">Contact Me</h2>
-                <div v-if="errorList.length > 0"  class="mb-4">
-                    <p class="text-red-500 font-bold">Please fix the following errors:</p>
-                    <ul>
-                        <li v-for="error in errorList" :key="error">{{ error }}</li>
-                    </ul>
-                </div>
-                <div class="mb-4">
-                    <label for="name" class="block text-gray-700 font-bold mb-2">Name</label>
-                    <input type="text" id="name" v-model="name"  v-bind="nameAttrs" class="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500" />
-                </div>
-                <div class="mb-4">
-                    <label for="email" class="block text-gray-700 font-bold mb-2">Email</label>
-                    <input type="email" id="email" v-model="email"  v-bind="emailAttrs" class="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500" />
-                </div>
-                <div class="mb-4">
-                    <label for="message" class="block text-gray-700 font-bold mb-2">Message</label>
-                    <textarea id="message" v-model="message"  v-bind="messageAttrs"  rows="4" class="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500"></textarea>
-                </div>
-                <button class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Submit</button>
-            </form>
+  <section id="contact" class="w-full py-24 px-6" style="background: #0b1326;">
+    <div class="max-w-2xl mx-auto">
+      <p class="label-caps text-cyber-primary mb-3">Let's Talk</p>
+      <h2 class="font-geist font-semibold text-cyber-text mb-12"
+          style="font-size: 2.5rem; letter-spacing: -0.01em;">
+        Contact Me
+      </h2>
+
+      <ActionFeedback :message="feedbackMessage" v-model:show="showFeedback" />
+
+      <form class="glass-card p-8 flex flex-col gap-6" @submit="onSubmit">
+
+        <div v-if="errorList.length > 0"
+             class="p-3 rounded"
+             style="background: rgba(255,180,171,0.1); border: 1px solid rgba(255,180,171,0.3);">
+          <ul class="text-sm" style="color: #ffb4ab;">
+            <li v-for="error in errorList" :key="error">{{ error }}</li>
+          </ul>
         </div>
+
+        <div class="flex flex-col gap-1">
+          <label for="name" class="label-caps text-cyber-muted">Name</label>
+          <input id="name" type="text" v-model="name" v-bind="nameAttrs"
+                 class="input-cyber font-hanken"
+                 placeholder="Your name" />
+        </div>
+
+        <div class="flex flex-col gap-1">
+          <label for="email" class="label-caps text-cyber-muted">Email</label>
+          <input id="email" type="email" v-model="email" v-bind="emailAttrs"
+                 class="input-cyber font-hanken"
+                 placeholder="your@email.com" />
+        </div>
+
+        <div class="flex flex-col gap-1">
+          <label for="message" class="label-caps text-cyber-muted">Message</label>
+          <textarea id="message" v-model="message" v-bind="messageAttrs" rows="5"
+                    class="input-cyber font-hanken resize-none"
+                    placeholder="What's on your mind?" />
+        </div>
+
+        <button type="submit" class="btn-primary-cyber self-start" :disabled="loading">
+          {{ loading ? 'Sending...' : 'Send Message' }}
+        </button>
+      </form>
     </div>
+  </section>
 </template>
 
 <script setup>
