@@ -13,11 +13,12 @@ const variables = {
   }
 }
 
-const env = process.env.NODE_ENV || 'development'
+const env = (process.env.NODE_ENV || 'development') as keyof typeof variables
 
 export default defineNuxtConfig({
   alias: {
     "@/lib": "~/lib",
+    "tiny-case":"tiny-case",
   },
 
   app: {
@@ -27,7 +28,7 @@ export default defineNuxtConfig({
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { hid: 'description', name: 'description', content: '' },
+        { name: 'description', content: '' },
         { name: 'format-detection', content: 'telephone=no' }
       ],
       link: [
@@ -63,7 +64,7 @@ export default defineNuxtConfig({
     css: {
       preprocessorOptions: {
         scss: {
-          api: 'modern', // or "modern", "legacy"
+          silenceDeprecations: ['legacy-js-api'],
         },
       },
     },
