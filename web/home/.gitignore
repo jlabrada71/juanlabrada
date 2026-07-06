@@ -10,3 +10,4 @@ juanlabrada.com.tar
 pages/version.vue
 analytics.json
 *.env
+.playwright-cli

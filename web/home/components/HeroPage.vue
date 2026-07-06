@@ -9,27 +9,24 @@
     <div class="relative z-10 flex flex-col items-center text-center gap-6 max-w-4xl mx-auto">
       <!-- Role tag -->
       <span class="label-caps text-cyber-primary">
-        Fullstack Engineer · Vue.js · Node.js
+        Fullstack AI Engineer · Claude · LangChain · Vue.js · Node.js
       </span>
 
       <!-- Headline -->
       <h1 class="font-geist font-bold text-cyber-text leading-tight"
           style="font-size: clamp(2.5rem, 6vw, 4rem); letter-spacing: -0.02em;">
-        Building Systems That<br />
-        <span style="color: #00f0ff;">Solve Real Problems</span>
+        Solving the  <span style="color: #00f0ff;">unsolvable</span><span class="text-cyber-text"> with AI-driven architecture</span>
       </h1>
+      <p class="text-cyber-text">Specializing in AI Solutions with Vue.js/Nuxt frontend systems and highly scalable Node.js backend infrastructures.</p>
 
-      <!-- Quote -->
-      <QuoteWindow />
+      <!-- Certifications -->
+      <RecentCertificates />
 
       <!-- CTAs -->
       <div class="flex flex-wrap gap-4 justify-center mt-2">
         <a href="#products" class="btn-primary-cyber">View Projects</a>
         <a href="#experiences" class="btn-ghost-cyber">Experience</a>
       </div>
-
-      <!-- Photo -->
-      <JuanImage />
     </div>
   </section>
 </template>
