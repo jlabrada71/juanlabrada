@@ -110,3 +110,7 @@ cfb94c1 feat: redesign home page 4f7d125 fix: resolve pre-existing TS errors in 
 0.14.0-47c67ae => Redesign
 ---------
 
+=============
+0.14.0-4fccc41 => Add certificates
+---------
+4fccc41 feature: Improve homepage design
