@@ -98,3 +98,7 @@ ee83e0c Testing the kadanes algorithms 72859fb How to automate git deployments 4
 0.14.0-cfb94c1 => Redesign
 ---------
 cfb94c1 feat: redesign home page 4f7d125 fix: resolve pre-existing TS errors in nuxt.config.ts (hid meta, env indexing, scss api) 73e0eef feat: wire up Cyber-Logic index page — remove test animations, add SiteHeader 4492b2e feat: reskin ContactMe with dark glassmorphic form and glowing inputs 7a22627 feat: reskin section components with glassmorphic cards (Experiences, Products, Experiments, Posts) 943cf40 feat: update SquaredButton with primary/ghost cyber variants 52304bb feat: reskin HeroPage with Cyber-Logic dark hero layout 07cccbe feat: add SiteHeader glassmorphic fixed nav bar e3806af feat: remove Google Fonts CDN links, set dark cyber background on layout 2a527b1 feat: add Cyber-Logic design tokens to Tailwind config a188b7e feat: add CSS custom properties and component utilities for Cyber-Logic design b340fe4 feat: add self-hosted fontsource packages (Geist, Hanken Grotesk, JetBrains Mono)
+=============
+0.14.0-c49c39e => Redesign
+---------
+
