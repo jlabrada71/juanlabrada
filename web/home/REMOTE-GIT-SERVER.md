@@ -18,7 +18,6 @@ chmod +x new-repository.git/hooks/post-receive
 
 
 --- sample post-receive
-
 #!/bin/bash
 
 # Read the stdin line by line
