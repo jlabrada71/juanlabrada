@@ -6,13 +6,13 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ```bash
 # Development
-pnpm dev          # Start dev server at http://localhost:3000
-pnpm build        # Build for production (outputs to .output/)
-pnpm generate     # Generate static site
-pnpm preview      # Preview production build
+npm run  dev          # Start dev server at http://localhost:3000
+npm run  build        # Build for production (outputs to .output/)
+npm run  generate     # Generate static site
+npm run  preview      # Preview production build
 
 # Testing
-pnpm test         # Run all Jest tests (uses --experimental-vm-modules)
+npm run  test         # Run all Jest tests (uses --experimental-vm-modules)
 npx jest tests/color-tools.spec.js  # Run a single test file
 ```
 

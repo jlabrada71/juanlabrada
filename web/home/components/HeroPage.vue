@@ -6,7 +6,7 @@
     <div class="absolute inset-0 pointer-events-none"
          style="background-image: linear-gradient(rgba(0,240,255,0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(0,240,255,0.03) 1px, transparent 1px); background-size: 48px 48px;" />
 
-    <div class="relative z-10 flex flex-col items-center text-center gap-6 max-w-4xl mx-auto">
+    <div class="relative z-10 flex flex-col items-center text-center gap-6 max-w-4xl mx-auto w-full min-w-0">
       <!-- Role tag -->
       <span class="label-caps text-cyber-primary">
         Fullstack AI Engineer · Claude · LangChain · Vue.js · Node.js

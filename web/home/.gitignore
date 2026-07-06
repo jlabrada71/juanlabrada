@@ -11,3 +11,4 @@ pages/version.vue
 analytics.json
 *.env
 .playwright-cli
+.playwright-mcp
