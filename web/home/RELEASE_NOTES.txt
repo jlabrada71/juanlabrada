@@ -130,3 +130,7 @@ cfb94c1 feat: redesign home page 4f7d125 fix: resolve pre-existing TS errors in 
 0.14.0-717885f => make certificates responsives
 ---------
 717885f feature: make homepage responsive
+=============
+0.14.0-5803e21 => make certificates responsives
+---------
+
