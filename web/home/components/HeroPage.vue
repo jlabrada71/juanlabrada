@@ -1,6 +1,6 @@
 <template>
   <section class="relative min-h-screen flex flex-col justify-center items-center overflow-hidden px-6 pt-16"
-           style="background: radial-gradient(ellipse 80% 60% at 50% -10%, rgba(0,240,255,0.12) 0%, transparent 60%), #0b1326;">
+           style="background: radial-gradient(ellipse 80% 60% at 50% -10%, rgba(0,240,255,0.12) 0%, transparent 60%), linear-gradient(rgba(11,19,38,0.85), rgba(11,19,38,0.85)), url('/images/hero-image-vue.png'); background-size: cover, cover, cover; background-position: center, center, center; background-repeat: no-repeat, no-repeat, no-repeat;">
 
     <!-- Subtle grid overlay -->
     <div class="absolute inset-0 pointer-events-none"

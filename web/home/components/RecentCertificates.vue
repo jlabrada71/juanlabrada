@@ -1,5 +1,5 @@
 <template>
-  <section id="certifications" class="w-full py-16 px-6" style="background: #0b1326;">
+  <section id="certifications" class="w-full py-16 px-6 glass-card" style="background: rgba(23, 31, 51, 0.35);">
     <div class="max-w-5xl mx-auto">
       <p class="label-caps text-cyber-primary mb-3">Credentials</p>
       <h2 class="font-geist font-semibold text-cyber-text mb-3"
