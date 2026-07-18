@@ -134,3 +134,7 @@ cfb94c1 feat: redesign home page 4f7d125 fix: resolve pre-existing TS errors in 
 0.14.0-5803e21 => make certificates responsives
 ---------
 
+=================================
+Release version 2.0.2
+------------------------------
+commit 27cea374bf38c340849f9eb8503f725e634b434c Author: Juan Labrada <agile@juanlabrada.com> Date: Fri Jul 17 22:39:07 2026 -0300 config: preparing release commit e0578faed839a0e3745695260f966afb79afd5f4 Author: Juan Labrada <agile@juanlabrada.com> Date: Fri Jul 17 21:40:46 2026 -0300 feature: implement new deploy system
