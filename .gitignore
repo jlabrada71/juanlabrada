@@ -1,4 +1,14 @@
 node_modules
+*.log*
 .nuxt
+.nitro
+.cache
+.output
 .env
-dev.env
+dist
+juanlabrada.com.tar
+pages/version.vue
+analytics.json
+*.env
+.playwright-cli
+.playwright-mcp
