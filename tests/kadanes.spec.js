@@ -1,3 +1,5 @@
+import { describe, it, expect } from 'vitest'
+
 describe('Kadanes Algorithm', () => {
     function kadanes(arr) {
         let maxSum = arr[0];

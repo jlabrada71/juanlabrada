@@ -1,3 +1,5 @@
+import { describe, it, expect } from 'vitest'
+
 describe('Three Points Bezier', () => {
   it('line', () => {
     const p1 = { x: 100, y: 100 };

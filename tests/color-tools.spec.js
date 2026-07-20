@@ -1,3 +1,4 @@
+import { describe, it, expect } from 'vitest'
 import { contrast, luminance, rgb2hsl, hsl2rgb, hlc2rgb, rgb2hlc } from "@/lib/color-tools.js";
 
 describe('Contrast', () => {
@@ -8,7 +9,6 @@ describe('Contrast', () => {
     expect (contrast2).toBeCloseTo(8.592)
   })
 })
-
 
 describe('Luminance', () => {
   it('returns the expected contrast', () => {

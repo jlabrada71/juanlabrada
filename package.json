@@ -8,19 +8,22 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest"
+    "test": "vitest run",
+    "preversion": "npm test",
+    "version": "npm run build && ./deploy-release-notes.sh",
+    "postversion": ""
   },
   "devDependencies": {
     "@nuxt/image": "^1.7.0",
     "autoprefixer": "^10.4.7",
     "daisyui": "^4.12.10",
-    "jest": "^29.7.0",
     "nuxt": "^4.2.2",
     "nuxt-security": "^2.0.0-rc.9",
     "postcss": "^8.4.47",
     "sass": "^1.79.4",
     "sitemap": "^7.1.1",
-    "tailwindcss": "^3.4.13"
+    "tailwindcss": "^3.4.13",
+    "vitest": "^4.1.10"
   },
   "dependencies": {
     "@fontsource-variable/geist": "^5.2.9",
@@ -40,7 +43,14 @@
     "nodemailer": "^6.9.7",
     "uuid": "^9.0.1",
     "vee-validate": "^4.12.5",
+    
     "vue-mermaid-string": "^6.0.0",
     "web-vitals": "^3.5.0"
+  },
+  "allowScripts": {
+    "esbuild@0.27.1": true,
+    "esbuild@0.25.12": true,
+    "sharp@0.32.6": true,
+    "vue-demi@0.14.10": true
   }
 }
