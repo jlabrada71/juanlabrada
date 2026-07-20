@@ -1,8 +1,8 @@
 [
-  { "file": "cert-ai-fluency.png", "title": "AI Fluency" },
-  { "file": "cert-claude-api.png", "title": "Claude API" },
-  { "file": "cert-coursera-ai-llms.png", "title": "Coursera: AI & LLMs" },
-  { "file": "cert-introduction-subagents.png", "title": "Intro to Subagents" },
-  { "file": "cert-langgraph.png", "title": "LangGraph" },
-  { "file": "cert-mcp-anthropic.png", "title": "MCP with Anthropic" }
+  { "file": "cert-ai-fluency.png", "title": "AI Fluency", "verifyUrl": "https://verify.skilljar.com/c/rkdzvw9dd23r" },
+  { "file": "cert-claude-api.png", "title": "Claude API", "verifyUrl": "https://verify.skilljar.com/c/fpdf4npz7a7c" },
+  { "file": "cert-coursera-ai-llms.png", "title": "Coursera: AI & LLMs", "verifyUrl": "" },
+  { "file": "cert-introduction-subagents.png", "title": "Intro to Subagents", "verifyUrl": "https://verify.skilljar.com/c/gnu7uopfj2gy" },
+  { "file": "cert-langgraph.png", "title": "LangGraph", "verifyUrl": "" },
+  { "file": "cert-mcp-anthropic.png", "title": "MCP with Anthropic" , "verifyUrl": "https://verify.skilljar.com/c/g77d2xjipbe6"}
 ]

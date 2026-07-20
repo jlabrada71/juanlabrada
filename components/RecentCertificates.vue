@@ -94,6 +94,14 @@
           </button>
           <img :src="`/certificates/${activeCert.file}`" :alt="activeCert.title" class="w-full max-h-[75vh] object-contain rounded-xl border border-cyber-primary/30 shadow-glow-primary">
           <span class="label-caps text-cyber-text text-center">{{ activeCert.title }}</span>
+          <button
+            v-if="activeCert.verifyUrl"
+            type="button"
+            class="btn-ghost-cyber text-xs px-3 py-1.5 self-center"
+            @click="openVerification(activeCert)"
+          >
+            Show Verification
+          </button>
         </div>
       </div>
     </Teleport>
@@ -104,7 +112,7 @@
 import { ref, nextTick, onBeforeUnmount } from 'vue'
 import { gsap } from 'gsap'
 
-const { data: certificates } = await useFetch('/certificates/certificates.json', { default: () => [] })
+const { data: certificates } = await useFetch('/certificates/certificates.json', { server: false, default: () => [] })
 
 const track = ref(null)
 const activeIndex = ref(0)
@@ -158,6 +166,11 @@ function closeModal() {
     },
   })
   window.removeEventListener('keydown', onKeydown)
+}
+
+function openVerification(cert) {
+  if (!cert.verifyUrl) return
+  window.open(cert.verifyUrl, '_blank', 'noopener,noreferrer')
 }
 
 function onKeydown(e) {
