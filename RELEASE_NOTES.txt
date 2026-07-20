@@ -162,3 +162,7 @@ Release version 2.2.0
 Release version 2.3.0
 ------------------------------
 commit 4d8e7f761d328910caa0892ddb52ac7a04dbf047 Author: Juan Labrada <agile@juanlabrada.com> Date: Mon Jul 20 14:12:17 2026 -0300 feature: improve deploy
+=================================
+Release version 2.3.1
+------------------------------
+commit a26a350b47722ca761b5c5411d379e2c7389d4ff Author: Juan Labrada <agile@juanlabrada.com> Date: Mon Jul 20 15:10:37 2026 -0300 refactor: removing .output commit da311cba504455e0304b3b1900d93b13a11fedd6 Author: Juan Labrada <agile@juanlabrada.com> Date: Mon Jul 20 15:09:20 2026 -0300 config: config base -urls commit 49a38e088c3b2211216420007750c800dcf21681 Author: Juan Labrada <agile@juanlabrada.com> Date: Mon Jul 20 14:12:48 2026 -0300 Release version: 2.3.0
