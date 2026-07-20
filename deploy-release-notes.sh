@@ -10,7 +10,8 @@ echo "Release version $VERSION_TAG" >> RELEASE_NOTES.txt
 echo "------------------------------" >> RELEASE_NOTES.txt
 echo $NOTES >> RELEASE_NOTES.txt
 
-git add .output
+# using -f to add node_modules
+git add .output -f
 git add RELEASE_NOTES.txt
 git commit -m "config: preparing release"
 
