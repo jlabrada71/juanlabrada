@@ -1,5 +1,6 @@
-# build
 rm .output -rf
+git add .output
+git commit -m "config: remove old build"
 
 PREV_TAG=$(git rev-parse production/current)
 # bugfix, secfix, refactor, docs, config changes: are patch changes.
