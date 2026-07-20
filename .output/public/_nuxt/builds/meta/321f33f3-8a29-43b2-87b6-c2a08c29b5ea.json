@@ -1,0 +1,1 @@
+{"id":"321f33f3-8a29-43b2-87b6-c2a08c29b5ea","timestamp":1784567543404,"matcher":{"static":{"/old-page":{"redirect":"/new-page"},"/old-page2":{"redirect":"/new-page"}},"wildcard":{},"dynamic":{}},"prerendered":[]}
