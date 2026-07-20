@@ -104,14 +104,7 @@
 import { ref, nextTick, onBeforeUnmount } from 'vue'
 import { gsap } from 'gsap'
 
-const certificates = [
-  { file: 'cert-ai-fluency.png', title: 'AI Fluency' },
-  { file: 'cert-claude-api.png', title: 'Claude API' },
-  { file: 'cert-coursera-ai-llms.png', title: 'Coursera: AI & LLMs' },
-  { file: 'cert-introduction-subagents.png', title: 'Intro to Subagents' },
-  { file: 'cert-langgraph.png', title: 'LangGraph' },
-  { file: 'cert-mcp-anthropic.png', title: 'MCP with Anthropic' },
-]
+const { data: certificates } = await useFetch('/certificates/certificates.json', { default: () => [] })
 
 const track = ref(null)
 const activeIndex = ref(0)
