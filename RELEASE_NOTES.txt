@@ -182,3 +182,7 @@ commit e60dc57778499f809ea23837b0e29547866dff0c Author: Juan Labrada <agile@juan
 Release version 2.5.2
 ------------------------------
 commit fc3149cf4061305c46e382b1b4c4dd40123a5437 Author: Juan Labrada <agile@juanlabrada.com> Date: Mon Jul 20 16:59:32 2026 -0300 config: remove old build commit b35bec1c9fa9c32871d026c6aa5fcadcc9dea001 Author: Juan Labrada <agile@juanlabrada.com> Date: Mon Jul 20 16:50:14 2026 -0300 refactor: extract certificate list into a json file commit 9bd555347327bda87569ef363d3d81dffee2c496 Author: Juan Labrada <agile@juanlabrada.com> Date: Mon Jul 20 15:35:12 2026 -0300 Release version: 2.5.1
+=================================
+Release version 2.6.0
+------------------------------
+commit d472ef84b18b7eef1254337793ca215d87d566ee Author: Juan Labrada <agile@juanlabrada.com> Date: Mon Jul 20 18:18:13 2026 -0300 config: remove old build commit dfc24ddb8c7af5eab8c5123b2cb1e90c82e058db Author: Juan Labrada <agile@juanlabrada.com> Date: Mon Jul 20 18:18:04 2026 -0300 feature: show appversion on the footer commit e18a4e77506633ebb6c7a8b0c43a52b3fccba203 Author: Juan Labrada <agile@juanlabrada.com> Date: Mon Jul 20 17:00:01 2026 -0300 Release version: 2.5.2
