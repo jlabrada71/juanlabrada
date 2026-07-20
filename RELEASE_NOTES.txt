@@ -146,3 +146,15 @@ commit 3fd7c913fdc8b834e646486ded6dfc72476a1029 Author: Juan Labrada <agile@juan
 Release version 2.2.0
 ------------------------------
 commit 52a8a6e07c0ce11feff4804302cc39c3247bfb7e Author: Juan Labrada <agile@juanlabrada.com> Date: Mon Jul 20 11:42:30 2026 -0300 config: preparing release commit a08c009e54bfd69005691ab1df15a969bb7cdc63 Author: Juan Labrada <agile@juanlabrada.com> Date: Mon Jul 20 11:42:25 2026 -0300 feature: Add message to version pump
+=================================
+Release version 2.2.0
+------------------------------
+
+=================================
+Release version 2.2.0
+------------------------------
+
+=================================
+Release version 2.2.0
+------------------------------
+
