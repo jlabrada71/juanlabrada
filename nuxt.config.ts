@@ -1,5 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 import tailwindTypography from '@tailwindcss/typography';
+import { version as appVersion } from './package.json';
 
 
 const variables = {
@@ -50,6 +51,7 @@ export default defineNuxtConfig({
     // Keys within public, will be also exposed to the client-side
     public: {
       domain: 'juanlabrada.com',
+      appVersion,
       apiServer: variables[env].apiBase, // override by NUXT_PUBLIC_API_SERVER
       apiBase: process.env.API_BASE ,
       otherUrl: process.env.OTHER_URL,

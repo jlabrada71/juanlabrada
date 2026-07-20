@@ -8,5 +8,6 @@
     <RecentExperiments />
     <RecentPosts />
     <ContactMe />
+    <SiteFooter />
   </div>
 </template>
