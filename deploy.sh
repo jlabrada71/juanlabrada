@@ -18,7 +18,7 @@ fi
 git tag -d production/current
 git push production --delete production/current
 # set the new release version number
-npm version $CHANGE
+npm version $CHANGE -m "Release version: :up-arrow: @VERSIONNUMBER"
 VERSION_TAG=$(node -p -e "require('./package.json').version")
 git tag -a production/current -m "Release version $VERSION_TAG"
 
