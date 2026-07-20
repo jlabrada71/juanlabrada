@@ -11,6 +11,7 @@ echo "------------------------------" >> RELEASE_NOTES.txt
 echo $NOTES >> RELEASE_NOTES.txt
 
 git add .output
+git add RELEASE_NOTES.txt
 git commit -m "config: preparing release"
 
 # delete previous production current
