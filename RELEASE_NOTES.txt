@@ -174,3 +174,7 @@ commit 7ef8ce7e3181e6719e3a727e29b4f543454626b8 Author: Juan Labrada <agile@juan
 Release version 2.5.0
 ------------------------------
 commit e9386ac1cbc2b878745b3bce0a1a24b4c494c42c Author: Juan Labrada <agile@juanlabrada.com> Date: Mon Jul 20 15:20:28 2026 -0300 config: remove old build commit 6dd0e79b15fc1929748ebac40d924043d878e779 Author: Juan Labrada <agile@juanlabrada.com> Date: Mon Jul 20 15:20:24 2026 -0300 feature: commit the releasenotes commit 91d8e813ac43ae0ccfc461887bde882d95d00bd8 Author: Juan Labrada <agile@juanlabrada.com> Date: Mon Jul 20 15:19:00 2026 -0300 Release version: 2.4.0
+=================================
+Release version 2.5.1
+------------------------------
+commit e60dc57778499f809ea23837b0e29547866dff0c Author: Juan Labrada <agile@juanlabrada.com> Date: Mon Jul 20 15:34:44 2026 -0300 config: remove old build commit ff72fa4df299153a48195ec371410b0e28808467 Author: Juan Labrada <agile@juanlabrada.com> Date: Mon Jul 20 15:34:39 2026 -0300 bugfix: add node_modules in fix commit ac26bdcdfd6125a3200611b2dfed40864e949528 Author: Juan Labrada <agile@juanlabrada.com> Date: Mon Jul 20 15:20:55 2026 -0300 Release version: 2.5.0
