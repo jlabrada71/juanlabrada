@@ -1,0 +1,1 @@
+import{c as t,n as c,z as r,F as o,o as s,t as a,L as u}from"./B_sjxoBH.js";const f={__name:"config",setup(i){const e=u();return(l,p)=>(s(!0),t(o,null,c(Object.keys(r(e).public),n=>(s(),t("li",null,a(n)+" - "+a(r(e).public[n]),1))),256))}};export{f as default};

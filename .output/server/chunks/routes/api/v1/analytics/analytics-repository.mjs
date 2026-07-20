@@ -1,0 +1,82 @@
+import { MongoClient } from 'mongodb';
+import { d as debug, l as log } from '../../../../_/logger.mjs';
+
+class AnalyticsRepository {
+  constructor(URL, DB) {
+    this.database = DB;
+    this.collection = "analytics";
+    this.connection = URL;
+    debug(`database:${this.database}`);
+    debug(`connection${this.connection}`);
+  }
+  async insert(record) {
+    let client;
+    let result;
+    try {
+      client = await MongoClient.connect(this.connection, {});
+      const dbo = client.db(this.database);
+      const col = dbo.collection(this.collection);
+      result = await col.insertOne(record);
+      debug("Inserted", "analytics-repository");
+    } catch (e) {
+      log(JSON.stringify(e.stack, null, 2), "analytics-repository");
+    } finally {
+      client.close();
+    }
+    return result;
+  }
+  async select(record) {
+    debug("Selecting " + record._id);
+    let client;
+    let result = [];
+    try {
+      client = await MongoClient.connect(this.connection, {});
+      const dbo = client.db(this.database);
+      const col = dbo.collection(this.collection);
+      result = await col.find(record).toArray();
+      debug("Selected", "analytics-repository");
+    } catch (e) {
+      log(JSON.stringify(e.stack, null, 2), "analytics-repository");
+    } finally {
+      client.close();
+    }
+    return result;
+  }
+  async update(record, newValues) {
+    debug("Updating " + record._id);
+    let client;
+    let result;
+    try {
+      client = await MongoClient.connect(this.connection, {});
+      const dbo = client.db(this.database);
+      const col = dbo.collection(this.collection);
+      result = await col.updateMany(record, newValues);
+      debug("Updated", "analytics-repository");
+    } catch (e) {
+      log(JSON.stringify(e.stack, null, 2), "analytics-repository");
+    } finally {
+      client.close();
+    }
+    return result;
+  }
+  async deleteRecord(record) {
+    debug("Deleting " + record._id);
+    let client;
+    let result;
+    try {
+      client = await MongoClient.connect(this.connection, {});
+      const dbo = client.db(this.database);
+      const col = dbo.collection(this.collection);
+      result = await col.deleteMany(record);
+      debug("Deleted", "analytics-repository");
+    } catch (e) {
+      log(JSON.stringify(e.stack, null, 2), "analytics-repository");
+    } finally {
+      client.close();
+    }
+    return result;
+  }
+}
+
+export { AnalyticsRepository as default };
+//# sourceMappingURL=analytics-repository.mjs.map

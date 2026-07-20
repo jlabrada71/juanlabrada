@@ -170,3 +170,7 @@ commit a26a350b47722ca761b5c5411d379e2c7389d4ff Author: Juan Labrada <agile@juan
 Release version 2.4.0
 ------------------------------
 commit 7ef8ce7e3181e6719e3a727e29b4f543454626b8 Author: Juan Labrada <agile@juanlabrada.com> Date: Mon Jul 20 15:18:20 2026 -0300 feature: remove old build from git commit caf87b982d6ea0ad77839758194a8134579cacd7 Author: Juan Labrada <agile@juanlabrada.com> Date: Mon Jul 20 15:15:36 2026 -0300 feature: commit release notes before the production TAG commit a78f5d4c81476a3c1b1432fd9d68f27053285c86 Author: Juan Labrada <agile@juanlabrada.com> Date: Mon Jul 20 15:11:18 2026 -0300 Release version: 2.3.1
+=================================
+Release version 2.5.0
+------------------------------
+commit e9386ac1cbc2b878745b3bce0a1a24b4c494c42c Author: Juan Labrada <agile@juanlabrada.com> Date: Mon Jul 20 15:20:28 2026 -0300 config: remove old build commit 6dd0e79b15fc1929748ebac40d924043d878e779 Author: Juan Labrada <agile@juanlabrada.com> Date: Mon Jul 20 15:20:24 2026 -0300 feature: commit the releasenotes commit 91d8e813ac43ae0ccfc461887bde882d95d00bd8 Author: Juan Labrada <agile@juanlabrada.com> Date: Mon Jul 20 15:19:00 2026 -0300 Release version: 2.4.0
