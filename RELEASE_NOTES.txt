@@ -178,3 +178,7 @@ commit e9386ac1cbc2b878745b3bce0a1a24b4c494c42c Author: Juan Labrada <agile@juan
 Release version 2.5.1
 ------------------------------
 commit e60dc57778499f809ea23837b0e29547866dff0c Author: Juan Labrada <agile@juanlabrada.com> Date: Mon Jul 20 15:34:44 2026 -0300 config: remove old build commit ff72fa4df299153a48195ec371410b0e28808467 Author: Juan Labrada <agile@juanlabrada.com> Date: Mon Jul 20 15:34:39 2026 -0300 bugfix: add node_modules in fix commit ac26bdcdfd6125a3200611b2dfed40864e949528 Author: Juan Labrada <agile@juanlabrada.com> Date: Mon Jul 20 15:20:55 2026 -0300 Release version: 2.5.0
+=================================
+Release version 2.5.2
+------------------------------
+commit fc3149cf4061305c46e382b1b4c4dd40123a5437 Author: Juan Labrada <agile@juanlabrada.com> Date: Mon Jul 20 16:59:32 2026 -0300 config: remove old build commit b35bec1c9fa9c32871d026c6aa5fcadcc9dea001 Author: Juan Labrada <agile@juanlabrada.com> Date: Mon Jul 20 16:50:14 2026 -0300 refactor: extract certificate list into a json file commit 9bd555347327bda87569ef363d3d81dffee2c496 Author: Juan Labrada <agile@juanlabrada.com> Date: Mon Jul 20 15:35:12 2026 -0300 Release version: 2.5.1
